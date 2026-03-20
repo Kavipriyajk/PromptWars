@@ -15,7 +15,7 @@ import requests
 app = FastAPI(title="GOLDEN HOUR Engine", version="1.0.0")
 
 # Serve frontend statically in production
-FRONTEND_DIST = os.path.join(os.path.dirname(__file__), "..", "frontend_dist")
+FRONTEND_DIST = os.path.join(os.path.dirname(__file__), "frontend_dist")
 if os.path.exists(FRONTEND_DIST):
     app.mount("/assets", StaticFiles(directory=os.path.join(FRONTEND_DIST, "assets")), name="assets")
     

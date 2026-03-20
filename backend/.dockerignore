@@ -1,0 +1,10 @@
+node_modules
+venv
+.git
+.gitignore
+.DS_Store
+dist
+frontend/node_modules
+frontend/src
+backend/__pycache__
+backend/cases.db
