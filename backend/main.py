@@ -20,6 +20,9 @@ from typing import Optional, List, Dict, Any
 from contextlib import asynccontextmanager
 from enum import Enum
 
+from dotenv import load_dotenv
+load_dotenv()  # Load .env file if it exists (local testing)
+
 from fastapi import FastAPI, BackgroundTasks, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles

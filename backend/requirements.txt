@@ -4,6 +4,7 @@ pydantic
 python-multipart
 aiosqlite
 requests
+python-dotenv
 google-generativeai
 pytest
 pytest-asyncio
