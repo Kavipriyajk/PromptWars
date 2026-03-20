@@ -4,3 +4,7 @@ pydantic
 python-multipart
 aiosqlite
 requests
+google-generativeai
+pytest
+pytest-asyncio
+httpx
